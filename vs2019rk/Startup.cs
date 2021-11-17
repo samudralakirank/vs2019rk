@@ -33,6 +33,7 @@ namespace vs2019rk
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("carryon");
                 });
             });
         }
